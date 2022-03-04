@@ -1,0 +1,11 @@
+$theme-colors: (
+  "primary": $primary, 
+  "secondary": $secondary,
+  "primary-light": $primary-light,
+  "light": $light,
+);
+
+// Bootstrap and its default variables
+@import 'bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import 'bootstrap-vue/src/index.scss';
