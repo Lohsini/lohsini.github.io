@@ -1,7 +1,5 @@
 import rainformDemo from "@/assets/contents/rainform-demo.png";
 import foodpocketDemo from "@/assets/contents/foodpocket-demo.jpeg";
-import ontimerDemo from "@/assets/contents/ontimer-demo.png";
-import raftDemo from "@/assets/contents/raft-demo.png";
 
 export interface LinkModel {
     label: string;

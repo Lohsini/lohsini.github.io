@@ -4,7 +4,7 @@
             Hsin-I Lo
         </h1>
         <h2 class="subtitle">
-            Software Engineer | Incoming Master's Student in Computer Science @ UIUC
+            Front-end Engineer | Incoming Master's Student in Computer Science @ UIUC
         </h2>
 
         <MyLinks class="download-resume" />

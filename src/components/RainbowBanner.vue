@@ -1,10 +1,10 @@
 <template>
-    <section class="banner-container rainbowlize bg">
-        <h1 class="title rainbowlize word">
-            Hsin-I Lo
+    <section class="banner-container bgPic bg">
+        <h1 class="title bgPic word">
+            Hsin-I (Joanna) Lo
         </h1>
         <h2 class="subtitle">
-            Software Engineer
+            Front-end Engineer
         </h2>
 
         <MyLinks class="my-link-wrapper" />
@@ -61,6 +61,12 @@ export default Vue.extend({
         50%{background-position:100% 19%}
         100%{background-position:0% 82%}
     }
+}
+
+.bgPic{
+    background-image:   url(../assets/banner.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .rainbowlize.bg {

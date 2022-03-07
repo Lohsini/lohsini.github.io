@@ -1,21 +1,21 @@
 <template>
     <div class="links-container">
         <a
-            href=""
+            href="https://github.com/Lohsini?tab=repositories"
             target="_blank"
             :class="{ light: iconStyle !== 'dark' }"
         >
             <font-awesome-icon :icon="['fab', 'github']" />
         </a>
         <a
-            href=""
+            href="https://www.facebook.com/joanna.lo.758"
             target="_blank"
             :class="{ light: iconStyle !== 'dark' }"
         >
             <font-awesome-icon :icon="['fab', 'facebook-f']" />
         </a>
         <a
-            href=""
+            href="https://www.linkedin.com/in/hsin-i-lo-2b7202a9/"
             target="_blank"
             :class="{ light: iconStyle !== 'dark' }"
         >

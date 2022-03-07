@@ -1,9 +1,9 @@
 export default [
     {
-        title: "QSticker",
-        role: "Co-founder, Software Engineer",
-        startDate: "Aug 2020",
-        endDate: "Jul 2021",
+        title: "Xueli",
+        role: "Front-end Engineer",
+        startDate: "Mar 2022",
+        endDate: "Present",
         image: "",
         linkURL: "",
         descriptions: [
@@ -14,10 +14,10 @@ export default [
         ],
     },
     {
-        title: "Artiv Phototile",
-        role: "Software Engineer",
-        startDate: "Oct 2019",
-        endDate: "Jun 2020",
+        title: "National Tsing Hua University",
+        role: "Research Assistant",
+        startDate: "Nov 2019",
+        endDate: "Feb 2022",
         image: "",
         linkURL: "",
         descriptions: [

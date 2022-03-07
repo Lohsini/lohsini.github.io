@@ -1,30 +1,29 @@
-import uiucLogo from "@/assets/contents/uiuc-logo.jpeg";
 import nthuLogo from "@/assets/contents/nthu-logo.png";
-import tkuLogo from "@/assets/contents/tku-logo.png";
+import yzuLogo from "@/assets/contents/yzu-logo.png";
 
 export default [
     {
-        title: "National Tsing Hua University",
-        role: "Bachelor of Science in Computer Science",
+        title: "Yuan Ze University",
+        role: "Department of Social and Policy Sciences / Master of Arts",
         startDate: "Sep 2015",
         endDate: "Jun 2018",
         image: nthuLogo,
         linkURL: "",
         descriptions: [
-            "Overall GPA: 3.99/4.3",
-            "Class rank: 3/45",
+            "GPA: 4.00/4.00",
+            "Average: 90.25/100",
         ],
     },
     {
-        title: "TamKang University",
-        role: "Completed Freshman Year Coursework in Computer Science",
+        title: "Yuan Ze University",
+        role: "Department of Social and Policy Sciences / Bachelor of Arts",
         startDate: "2014",
         endDate: "2015",
-        image: tkuLogo,
+        image: yzuLogo,
         linkURL: "",
         descriptions: [
-            "GPA: 92.76/100",
-            "Class rank: 1/59",
+            "GPA: 3.68/4.00",
+            "Grade Average: 83.49/100",
         ],
     },
 ];

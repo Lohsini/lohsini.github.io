@@ -13,7 +13,7 @@
                 >
                     <div class="text-area">
                         <h1>About Me</h1>
-                        Hi, I am Hsin-I, or you can call me Bryce. I am interested in backend development and cloud infrastructure technology. I am actively seeking 2022 Software Engineer Intern.
+                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in frontend development and cloud infrastructure technology. I am actively seeking 2022 Front-end Engineer Intern.
 
                         <br><br>
                         I am pursuing a Master’s degree in Computer Science at University of Illinois Urbana-Champaign.

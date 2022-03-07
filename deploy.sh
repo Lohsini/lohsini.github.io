@@ -5,5 +5,5 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/ master:gh-page
+git push -f https://github.com/Lohsini/Hsin-I-website.git master:gh-page
 cd ../
