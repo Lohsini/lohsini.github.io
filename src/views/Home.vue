@@ -5,6 +5,7 @@
         <WorkExperienceSection id="Work" />
         <EducationSection id="Education" />
         <ProjectSection id="Projects" />
+        <CourseProjectSection id="CourseProjects" />
         <Footer />
     </div>
 </template>
@@ -16,6 +17,7 @@ import AboutMe from "@/components/AboutMe.vue";
 import WorkExperienceSection from "@/components/sections/WorkExperienceSection.vue";
 import EducationSection from "@/components/sections/EducationSection.vue";
 import ProjectSection from "@/components/sections/ProjectSection.vue";
+import CourseProjectSection from "@/components/sections/CourseProjectSection.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -26,6 +28,7 @@ export default {
         WorkExperienceSection,
         EducationSection,
         ProjectSection,
+        CourseProjectSection,
         Footer,
     },
     data() {

@@ -1,7 +1,7 @@
-import rainformDemo from "@/assets/contents/rainform-demo.png";
-import foodpocketDemo from "@/assets/contents/foodpocket-demo.jpeg";
-import chainfarmsDemo from "@/assets/contents/chainfarms-demo.png";
-import siotaDemo from "@/assets/contents/siota-demo.png";
+import boombermanDemo from "@/assets/contents/boomberman-demo.png";
+import webmarioDemo from "@/assets/contents/web-mario-demo.png";
+import chatroomDemo from "@/assets/contents/chatroom-demo.png";
+import webCanvasDemo from "@/assets/contents/web-canvas-demo.png";
 
 export interface LinkModel {
     label: string;
@@ -10,30 +10,35 @@ export interface LinkModel {
 
 export default [
     {
-        title: "Rainform (volunteer project)",
+        title: "Bomberman",
         role: "",
-        startDate: "Feb 2021",
+        startDate: "Jun 2021",
+        endDate: "Jun 2021",
+        image: boombermanDemo,
+        linkURL: "",
+        descriptions: [
+            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
+            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
+            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+        ],
+        links: [
+            {
+                label: "Webpage",
+                url: "https://foodpocket.github.io/",
+            },
+            {
+                label: "Github",
+                url: "https://github.com/foodpocket/foodpocket",
+            },
+        ],
+        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+    },
+    {
+        title: "Web Mario",
+        role: "",
+        startDate: "May 2021",
         endDate: "May 2021",
-        image: rainformDemo,
-        linkURL: "",
-        descriptions: [
-            "Led a team of 3 to develop an online form service using Firebase Auth and Firestore",
-            "Reduced management efforts by building Content Management System (CMS) adopting Google Drive API and Google Docs API to automatically merge texts and templates into PDF documents",
-        ],
-        links: [
-            {
-                label: "Webpage",
-                url: "https://rainform.github.io/",
-            },
-        ],
-        tags: ["Firebase", "Vue.js", "TypeScript"],
-    },
-    {
-        title: "FoodPocket",
-        role: "",
-        startDate: "Jun 2020",
-        endDate: "Jan 2021",
-        image: foodpocketDemo,
+        image: webmarioDemo,
         linkURL: "",
         descriptions: [
             "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
@@ -53,11 +58,11 @@ export default [
         tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
     },
     {
-        title: "Chainfarms",
+        title: "Chatroom",
         role: "",
-        startDate: "Apr 2020",
-        endDate: "Jun 2020",
-        image: chainfarmsDemo,
+        startDate: "Apr 2021",
+        endDate: "Apr 2021",
+        image: chatroomDemo,
         linkURL: "",
         descriptions: [
             "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
@@ -77,11 +82,11 @@ export default [
         tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
     },
     {
-        title: "SIoTA",
+        title: "Web Canvas",
         role: "",
-        startDate: "Dec 2019",
-        endDate: "Mar 2020",
-        image: siotaDemo,
+        startDate: "Mar 2021",
+        endDate: "Mar 2021",
+        image: webCanvasDemo,
         linkURL: "",
         descriptions: [
             "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
