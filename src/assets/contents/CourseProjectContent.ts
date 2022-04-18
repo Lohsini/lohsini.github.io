@@ -12,26 +12,20 @@ export default [
     {
         title: "Bomberman",
         role: "",
-        startDate: "Jun 2021",
-        endDate: "Jun 2021",
+        startDate: "June 2021",
+        endDate: "June 2021",
         image: boombermanDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Developed a two-player Bomber man web version game utilizing Cocos Creator and Firebase with a team of 3",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "https://bomberman2021-5f5a6.web.app/",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["Cocos Creator", "TypeScript", "Firebase Auth", "Firebase"],
     },
     {
         title: "Web Mario",
@@ -41,21 +35,15 @@ export default [
         image: webmarioDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Developed web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "https://web-mario-b1444.web.app/",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["Cocos Creator", "TypeScript", "Firebase Auth", "Firestore"],
     },
     {
         title: "Chatroom",
@@ -65,21 +53,16 @@ export default [
         image: chatroomDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Created login feature with email and google authentication",
+            "Developed a web chatroom that allows users to interact instantly using Realtime Database and Google Storage",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "https://chatroom-e13ac.web.app",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["Vue.js", "JavaScript", "Firebase's Authentication", "Realtime Database", "Google Storage"],
     },
     {
         title: "Web Canvas",
@@ -89,20 +72,14 @@ export default [
         image: webCanvasDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Established a canvas using HTML, CSS, JavaScript",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "https://1092083s.gitlab.io/AS_01_WebCanvas/",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["HTML", "CSS", "JavaScript", "GitLab"],
     },
 ];

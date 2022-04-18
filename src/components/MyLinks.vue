@@ -1,7 +1,7 @@
 <template>
     <div class="links-container">
         <a
-            href="https://github.com/Lohsini?tab=repositories"
+            href="https://github.com/Lohsini"
             target="_blank"
             :class="{ light: iconStyle !== 'dark' }"
         >

@@ -17,28 +17,32 @@ export default [
         image: rainformDemo,
         linkURL: "",
         descriptions: [
-            "Led a team of 3 to develop an online form service using Firebase Auth and Firestore",
-            "Reduced management efforts by building Content Management System (CMS) adopting Google Drive API and Google Docs API to automatically merge texts and templates into PDF documents",
+            "Developed an online form service using Firebase Auth and Firestore with a team of 4",
+            "Established a control panel for users to modify data, generate surveys, and view statistics",
+            "Reduced 80% of process time of merging text into templates through developing automation scripts",
         ],
         links: [
             {
                 label: "Webpage",
                 url: "https://rainform.github.io/",
             },
+            {
+                label: "Github",
+                url: "https://github.com/rainform/client_web",
+            },
         ],
-        tags: ["Firebase", "Vue.js", "TypeScript"],
+        tags: ["Vue.js", "Vuex", "TypeScript", "Firebase"],
     },
     {
         title: "FoodPocket",
         role: "",
-        startDate: "Jun 2020",
-        endDate: "Jan 2021",
+        startDate: "June 2020",
+        endDate: "Jane 2021",
         image: foodpocketDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Developed Web App for users to record daily meals and restaurants",
+            "Designed a RWD website for mobile phones, tablets, and computers",
         ],
         links: [
             {
@@ -50,31 +54,25 @@ export default [
                 url: "https://github.com/foodpocket/foodpocket",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["Vue.js", "Vuex", "TypeScript", "RWD", "Bootstrap"],
     },
     {
         title: "Chainfarms",
         role: "",
         startDate: "Apr 2020",
-        endDate: "Jun 2020",
+        endDate: "June 2020",
         image: chainfarmsDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Developed web UI adopting Responsive Web Design using Vue.js",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "http://chainfarms.com.tw",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["Vue.js", "SCSS", "JavaScript"],
     },
     {
         title: "SIoTA",
@@ -84,20 +82,14 @@ export default [
         image: siotaDemo,
         linkURL: "",
         descriptions: [
-            "Developed Single Sign-On (SSO) mechanism and RESTful APIs by Django and PostgreSQL",
-            "Configured and deployed backend services on containerized Ngnix and Gunicorn, and ran on AWS EC2",
-            "Automated unit-test, compilation and deployment tasks by establishing CI/CD flow with Travis-CI",
+            "Established 9 different UI design pages on the website and deployed the website on Heroku",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://foodpocket.github.io/",
-            },
-            {
-                label: "Github",
-                url: "https://github.com/foodpocket/foodpocket",
+                url: "https://siota.herokuapp.com/index.html",
             },
         ],
-        tags: ["Vue.js", "Django", "PostgreSQL", "Travis-CI"],
+        tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Ajax", "Python", "Git", "Heroku"],
     },
 ];

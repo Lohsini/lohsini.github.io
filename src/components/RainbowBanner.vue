@@ -1,18 +1,20 @@
 <template>
     <section class="banner-container bgPic bg">
-        <h1 class="title bgPic word">
-            Hsin-I (Joanna) Lo
-        </h1>
-        <h2 class="subtitle">
-            Front-end Engineer
-        </h2>
+        <div class="broad">
+            <h1 class="title bgPic word">
+                Hsin-I (Joanna) Lo
+            </h1>
+            <h2 class="subtitle">
+                Front-end Engineer
+            </h2>
 
-        <MyLinks class="my-link-wrapper" />
-        <ProfileImage
-            class="my-profile-image"
-            alt-text="Hsin-I Lo"
-            :src="require('@/assets/myProfileImage2.jpg')"
-        />
+            <MyLinks class="my-link-wrapper" />
+            <ProfileImage
+                class="my-profile-image"
+                alt-text="Hsin-I Lo"
+                :src="require('@/assets/myProfileImage.jpg')"
+            />
+        </div>
     </section>
 </template>
 
@@ -64,9 +66,18 @@ export default Vue.extend({
 }
 
 .bgPic{
-    background-image:   url(../assets/banner.jpg);
+    background-image: url(../assets/banner.jpg);
     background-size: cover;
     background-position: center center;
+    .broad{
+        background-color: #ffffff83;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .rainbowlize.bg {
@@ -90,7 +101,7 @@ export default Vue.extend({
     .title {
         font-size: 9vw;
 
-        color: transparent;
+        // color: transparent;
 
         -webkit-background-clip: text !important;
         background-clip: text !important;

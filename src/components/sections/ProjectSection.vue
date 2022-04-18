@@ -46,7 +46,7 @@ export default Vue.extend({
     },
     data() {
         return {
-            sectionTitle: "Projects",
+            sectionTitle: "Selected Projects",
             projectList,
             hideBullet: true,
         };

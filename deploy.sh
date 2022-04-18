@@ -1,6 +1,6 @@
-# reference: https://cli.vuejs.org/guide/deployment.html#github-pages
+reference: https://cli.vuejs.org/guide/deployment.html#github-pages
 
-mkdir dist
+mkdir dists
 cd dist
 git init
 git add -A

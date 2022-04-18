@@ -13,12 +13,11 @@
                 >
                     <div class="text-area">
                         <h1>About Me</h1>
-                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in frontend development and cloud infrastructure technology. I am actively seeking 2022 Front-end Engineer Intern.
+                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in frontend development.
 
                         <br><br>
-                        I am pursuing a Master’s degree in Computer Science at University of Illinois Urbana-Champaign.
-                        Prior to UIUC, I am co-founder of a startup company, QSticker, a company providing learning ability analysis services for students, where I built a SaaS web application with 1K daily active users based on Java, MongoDB and GCP.
-                        Moreover, I collaborated with a non-profit organization to initiate the Rainform project, where he led a team of 3 people to create a web service using Firebase and Google APIs<br>
+
+                        <br>
                     </div>
                 </b-col>
                 <b-col
@@ -32,9 +31,10 @@
                             Have a good day ;)
                         </h1>
                         <ul>
-                            <li>Experienced in Javascript (expert), Java (proficient), Python (fluent), C++/C (fluent)</li>
-                            <li>Familiar with modern web development stacks, such as Vue.js, Django, J2EE, Docker, Linux, AWS, and GCP</li>
-                            <li>Interested in backend, cloud computing, distributed system and program security, crafting some projects at my leisure</li>
+                            <li>Programming Languages:<br>Javascript/TypeScript, Python, R</li>
+                            <li>Technologies & Frameworks:<br>HTML, SCSS, Vue, Vuex, jQuery, RWD, Bootstrap, React</li>
+                            <li>Cloud Services:<br>Firebase(Firestore, Realtime Database, Authentication, Google Storage), Heroku</li>
+                            <li>Tools:<br>Git, GitHub, GitLab, Adobe XD, Cocos Creator, SPSS, Linux, Postman, LaTeX</li>
                         </ul>
                     </div>
                 </b-col>
@@ -86,6 +86,9 @@ export default Vue.extend({
 
                 ul {
                     padding-inline-start: 0;
+                    li{
+                        margin-bottom: 15px;
+                    }
                 }
             }
         }

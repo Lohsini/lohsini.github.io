@@ -14,7 +14,12 @@
                     >
                 </b-col>
                 <b-col>
-                    <h2><a :href="mainLink">{{ title }}</a></h2>
+                    <h2>
+                        <a
+                            :href="mainLink"
+                            target="_blank"
+                        >{{ title }}</a>
+                    </h2>
                     <p class="m-0">
                         {{ role }}
                         <span v-if="role && startToEndDateText">.</span>
@@ -46,6 +51,7 @@
                             :key="key"
                             :href="link.url"
                             class="mr-2"
+                            target="_blank"
                         >{{ link.label }}</a>
                     </div>
                 </b-col>

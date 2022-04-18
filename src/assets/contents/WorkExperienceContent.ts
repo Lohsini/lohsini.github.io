@@ -1,16 +1,15 @@
 export default [
     {
-        title: "Xueli",
+        title: "Qsticker",
         role: "Front-end Engineer",
         startDate: "Mar 2022",
         endDate: "Present",
         image: "",
         linkURL: "",
         descriptions: [
-            "Built learning ability assessment platform, helping 1K daily active users improve academic performance",
-            "Established persistent task scheduler and web-based file system by Java, and Morphia/MongoDB",
-            "Enabled multi-chatbot messaging by designing abstraction layer above Line, Messenger, and WeChat chatbot SDKs",
-            "Tuned production environment for Tomcat and MongoDB Docker containers running on Google Cloud Engine",
+            "Built a learning ability assessment platform to help 1K daily active users improve academic performance with a team of 12",
+            "Created workspaces with editable graphs and quizzes to assess users’ academic progress and learning situations",
+            "Established a web filesystem interface for browsing folders, sorting files, and searching files",
         ],
     },
     {
@@ -21,9 +20,10 @@ export default [
         image: "",
         linkURL: "",
         descriptions: [
-            "Developed cloud photo storage that compresses and resizes uploaded photos using PHP and MySQL",
-            "Reduced request response time by 50% through tuning compression algorithm based on OpenCV and C++",
-            "Utilized OAuth2 authorization to import user’s photos on Google, Facebook and Instagram Photo API",
+            "Designed 12 different web UIs adopting Responsive Web Design using Vue.js and Vue-Bootstrap",
+            "Configured Heroku and Github Page deployment to host websites",
+            "Developed news feed API by searching and filtering relative news with Google search API and python web crawler",
+            "Utilized i18n library to make websites support multiple language",
         ],
     },
 ];
