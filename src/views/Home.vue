@@ -5,7 +5,7 @@
         <AboutMe id="About" />
         <WorkExperienceSection id="Work" />
         <EducationSection id="Education" />
-        <ProjectSection id="Projects" />
+        <ProjectSection id="SelectedProjects" />
         <CourseProjectSection id="CourseProjects" />
         <Footer />
     </div>

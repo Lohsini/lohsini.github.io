@@ -44,10 +44,16 @@
                     Education
                 </b-nav-item>
                 <b-nav-item
-                    v-scroll-to="'#Projects'"
+                    v-scroll-to="'#SelectedProjects'"
                     to="/"
                 >
-                    Projects
+                    Selected Projects
+                </b-nav-item>
+                <b-nav-item
+                    v-scroll-to="'#CourseProjects'"
+                    to="/"
+                >
+                    Course Projects
                 </b-nav-item>
                 <b-nav-item
                     :href="resumeLink"

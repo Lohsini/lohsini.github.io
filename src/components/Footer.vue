@@ -58,7 +58,7 @@ export default Vue.extend({
     width: 100%;
     background-color: $primary;
     padding: 3vw 0 1vw 0;
-    color: $primary-light;
+    color: $secondary-light;
 }
 
 @media only screen and (max-width: 576px) {

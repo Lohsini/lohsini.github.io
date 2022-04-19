@@ -17,7 +17,7 @@ export default [
         image: boombermanDemo,
         linkURL: "",
         descriptions: [
-            "Developed a two-player Bomber man web version game utilizing Cocos Creator and Firebase with a team of 3",
+            "Built a two-player Bomber man web version game utilizing Cocos Creator and Firebase with a team of 3",
         ],
         links: [
             {
@@ -35,7 +35,7 @@ export default [
         image: webmarioDemo,
         linkURL: "",
         descriptions: [
-            "Developed web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
+            "Founded web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
         ],
         links: [
             {

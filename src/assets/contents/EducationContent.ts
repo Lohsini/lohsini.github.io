@@ -4,7 +4,7 @@ import yzuLogo from "@/assets/contents/yzu-logo.png";
 export default [
     {
         title: "Software Studio (National Tsing Hua University CS 241002)",
-        role: "The student in credit courses",
+        role: "The student in the 3-credit undergraduate course",
         startDate: "Mar 2021",
         endDate: "June 2021",
         image: nthuLogo,
@@ -22,7 +22,7 @@ export default [
         linkURL: "",
         descriptions: [
             "GPA: 4.00 / 4.00",
-            "Average: 90.25 / 100",
+            "Grade Average: 90.25 / 100",
         ],
     },
     {

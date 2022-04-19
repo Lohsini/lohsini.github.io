@@ -13,9 +13,13 @@
                 >
                     <div class="text-area">
                         <h1>About Me</h1>
-                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in frontend development.
+                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in front-end development.
 
                         <br><br>
+
+                        I am a front-end engineer of a startup company, QSticker, a company providing learning ability analysis services for students, where I built a learning ability assessment platform with 1K daily active users and created workspaces with editable graphs and quizzes to assess users’ academic progress and learning situations.
+                        Prior to QSticker, I am a research assistant at National Tsing Hua University where I designed many web UIs adopting Responsive Web Design. Moreover, I collaborated with a non-profit organization to initiate the Rainform project, where he led a team of 4 people to create a web service using Firebase and Google APIs.
+                        I also took the 3-credit course, Software Studio, to improve myself and I got a great grade at the end of the course.
 
                         <br>
                     </div>
@@ -76,7 +80,7 @@ export default Vue.extend({
                 margin: 0 3vw;
                 padding: 2vw;
                 color: $primary-light;
-                text-align: left;
+                text-align: justify;
                 flex: 1;
 
                 h1 {

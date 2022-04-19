@@ -7,9 +7,10 @@ export default [
         image: "",
         linkURL: "",
         descriptions: [
-            "Built a learning ability assessment platform to help 1K daily active users improve academic performance with a team of 12",
+            "Built a learning ability assessment platform to help 1K daily active users improve academic performance",
             "Created workspaces with editable graphs and quizzes to assess users’ academic progress and learning situations",
             "Established a web filesystem interface for browsing folders, sorting files, and searching files",
+            "Collaborated with a 12-person team",
         ],
     },
     {
