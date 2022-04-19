@@ -1,6 +1,7 @@
 import rainformDemo from "@/assets/contents/rainform-demo.png";
 import foodpocketDemo from "@/assets/contents/foodpocket-demo.jpeg";
 import chainfarmsDemo from "@/assets/contents/chainfarms-demo.png";
+import chingyuDemo from "@/assets/contents/chingyu-demo.png";
 import siotaDemo from "@/assets/contents/siota-demo.png";
 
 export interface LinkModel {
@@ -56,6 +57,24 @@ export default [
         ],
         tags: ["Vue.js", "Vuex", "TypeScript", "RWD", "Bootstrap"],
     },
+    // {
+    //     title: "ChingYu",
+    //     role: "",
+    //     startDate: "Oct 2020",
+    //     endDate: "Dec 2020",
+    //     image: chingyuDemo,
+    //     linkURL: "",
+    //     descriptions: [
+    //         "Developed web UI adopting Responsive Web Design using Vue.js",
+    //     ],
+    //     links: [
+    //         {
+    //             label: "Webpage",
+    //             url: "https://lohsini.github.io/ChingYu/#/",
+    //         },
+    //     ],
+    //     tags: ["Vue.js", "SCSS", "JavaScript", "Bootstrap", "GitHub"],
+    // },
     {
         title: "Chainfarms",
         role: "",
