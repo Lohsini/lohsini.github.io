@@ -35,10 +35,10 @@
                             Have a good day ;)
                         </h1>
                         <ul>
-                            <li>Programming Languages:<br>Javascript/TypeScript, Python, R</li>
-                            <li>Technologies & Frameworks:<br>HTML, SCSS, Vue, Vuex, jQuery, RWD, Bootstrap, React</li>
+                            <li>Programming Languages:<br>JavaScript/TypeScript, Python, R</li>
+                            <li>Technologies & Frameworks:<br>HTML, SCSS, Vue.js, Vuex, jQuery, RWD, Bootstrap, React</li>
                             <li>Cloud Services:<br>Firebase(Firestore, Realtime Database, Authentication, Google Storage), Heroku</li>
-                            <li>Tools:<br>Git, GitHub, GitLab, Adobe XD, Cocos Creator, SPSS, Linux, Postman, LaTeX</li>
+                            <li>Tools:<br>Git, Linux, Postman, GitHub, GitLab, Adobe XD, Cocos Creator, SPSS, LaTeX</li>
                         </ul>
                     </div>
                 </b-col>

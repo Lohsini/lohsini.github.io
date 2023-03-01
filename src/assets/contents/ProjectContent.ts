@@ -18,7 +18,7 @@ export default [
         image: rainformDemo,
         linkURL: "",
         descriptions: [
-            "Customized an online form service using Firebase Auth and Firestore with a team of 4",
+            "Developed an online form service using Firebase Auth and Firestore with a team of 4",
             "Established a control panel for users to modify data, generate surveys, and view statistics",
             "Reduced 80% of process time of merging text into templates through developing automation scripts",
         ],
@@ -42,9 +42,9 @@ export default [
         image: foodpocketDemo,
         linkURL: "",
         descriptions: [
-            "Founded a Web App for users to record daily meals and restaurants",
+            "Developed a Web App for users to record daily meals and restaurants",
             "Designed a RWD website for mobile phones, tablets, and computers",
-            "Resolved asynchronous issues for an account API request",
+            "Resolved asynchronous issues for concurrent API requests",
         ],
         links: [
             {

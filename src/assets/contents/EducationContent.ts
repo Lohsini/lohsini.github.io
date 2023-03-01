@@ -15,9 +15,9 @@ export default [
     },
     {
         title: "Yuan Ze University",
-        role: "MA in Social and Policy Sciences (Graduated)",
+        role: "MA in Social and Policy Sciences",
         startDate: "Sep 2018",
-        endDate: "July 2019",
+        endDate: "July 2019 (Graduated)",
         image: yzuLogo,
         linkURL: "",
         descriptions: [
@@ -27,9 +27,9 @@ export default [
     },
     {
         title: "Yuan Ze University",
-        role: "BA in Social and Policy Sciences (Graduated)",
+        role: "BA in Social and Policy Sciences",
         startDate: "Sep 2014",
-        endDate: "June 2018",
+        endDate: "June 2018 (Graduated)",
         image: yzuLogo,
         linkURL: "",
         descriptions: [

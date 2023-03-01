@@ -35,7 +35,7 @@ export default [
         image: webmarioDemo,
         linkURL: "",
         descriptions: [
-            "Founded web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
+            "Designed web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
         ],
         links: [
             {
