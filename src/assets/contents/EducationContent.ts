@@ -3,16 +3,27 @@ import yzuLogo from "@/assets/contents/yzu-logo.png";
 
 export default [
     {
-        title: "Software Studio (National Tsing Hua University CS 241002)",
-        role: "The student in the 3-credit undergraduate course",
-        startDate: "Mar 2021",
-        endDate: "June 2021",
+        title: "National Tsing Hua University",
+        role: "The student in the 3-credit undergraduate courses",
+        startDate: "Feb 2021",
+        endDate: "Jan 2023",
         image: nthuLogo,
         linkURL: "",
         descriptions: [
-            "Grade: 97 / 100 , A+",
+            "Coursework: Data Structures, Discrete Mathematics, Logic Design and Software Studio",
         ],
     },
+    // {
+    //     title: "Software Studio (National Tsing Hua University CS 241002)",
+    //     role: "The student in the 3-credit undergraduate course",
+    //     startDate: "Feb 2021",
+    //     endDate: "June 2021",
+    //     image: nthuLogo,
+    //     linkURL: "",
+    //     descriptions: [
+    //         "Grade: 97 / 100 , A+",
+    //     ],
+    // },
     {
         title: "Yuan Ze University",
         role: "MA in Social and Policy Sciences",
