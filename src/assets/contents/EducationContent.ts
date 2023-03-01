@@ -10,7 +10,7 @@ export default [
         image: nthuLogo,
         linkURL: "",
         descriptions: [
-            "Coursework: Data Structures, Discrete Mathematics, Logic Design and Software Studio",
+            "Coursework: Data Structures, Discrete Mathematics, Logic Design, and Software Studio",
         ],
     },
     // {
