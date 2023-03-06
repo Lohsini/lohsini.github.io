@@ -5,8 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
     state: {
-        resumeLink: "https://drive.google.com/file/d/1wwSvZPwVuAZiVMZJBAFev-Yw1Y21au59/view?usp=sharing",
-
+        resumeLink: "https://drive.google.com/file/d/104X_f2ddOa3iMuVRL8w1s2TFMSZHwas_/view?usp=share_link",
         // for bootstrap grid system
         oneColumnGrid: {
             sm: "12",
