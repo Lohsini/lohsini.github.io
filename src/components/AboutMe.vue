@@ -13,12 +13,13 @@
                 >
                     <div class="text-area">
                         <h1>About Me</h1>
-                        Hi, I am Hsin-I, or you can call me Joanna. I am interested in front-end development.
+                        Hello, I'm Hsin-I Lo, also known as Joanna. I'm pursuing my master's degree in Computer Science at the Illinois Institute of Technology.
 
                         <br><br>
+                        I was a software engineer at QSticker, where I played a pivotal role in developing a robust learning ability assessment platform that garnered 1,000 daily active users — before that, my time as a research assistant at National Tsing Hua University honed my skills in designing responsive web interfaces.
 
-                        I am a front-end engineer of a startup company, QSticker, a company providing learning ability analysis services for students, where I built a learning ability assessment platform with 1K daily active users and created workspaces with editable graphs and quizzes to assess users’ academic progress and learning situations. Prior to QSticker, I was a research assistant at National Tsing Hua University where I designed many web UIs adopting Responsive Web Design. Moreover, I collaborated with a non-profit organization to initiate the Rainform project, where he led a team of 4 people to create a web service using Firebase and Google APIs. I also took the 3-credit courses, Data Structures, Discrete Mathematics, Logic Design, and Software Studio, to improve myself and I got an excellent grade at the end of the courses.
-                        <br>
+                        <br><br>
+                        I'm passionately advancing my knowledge in Computer Science, eager to contribute my skills and experiences to new challenges.
                     </div>
                 </b-col>
                 <b-col
@@ -32,10 +33,10 @@
                             Have a good day ;)
                         </h1>
                         <ul>
-                            <li>Programming Languages:<br>JavaScript/TypeScript, Python, R</li>
-                            <li>Technologies & Frameworks:<br>HTML, SCSS, Vue.js, Vuex, jQuery, RWD, Bootstrap, React</li>
+                            <li>Programming Languages:<br>C/C++, JavaScript/TypeScript, Python</li>
+                            <li>Technologies & Frameworks:<br>SCSS, Vue.js, Vuex, FastAPI, MySQL</li>
                             <li>Cloud Services:<br>Firebase(Firestore, Realtime Database, Authentication, Google Storage), Heroku</li>
-                            <li>Tools:<br>Git, Linux, Postman, GitHub, GitLab, Adobe XD, Cocos Creator, SPSS, LaTeX</li>
+                            <li>Tools:<br>Git, Linux, Postman, GitHub, Adobe XD, Cocos Creator, SPSS</li>
                         </ul>
                     </div>
                 </b-col>

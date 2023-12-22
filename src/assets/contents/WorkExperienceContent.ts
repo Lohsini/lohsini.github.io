@@ -1,9 +1,9 @@
 export default [
     {
         title: "Qsticker",
-        role: "Front-end Engineer",
+        role: "Software Engineer",
         startDate: "Mar 2022",
-        endDate: "Present",
+        endDate: "Aug 2023",
         image: "",
         linkURL: "",
         descriptions: [

@@ -4,7 +4,7 @@
             Hsin-I (Joanna) Lo
         </h1>
         <h2 class="subtitle">
-            Front-end Engineer
+            Software Engineer
         </h2>
 
         <MyLinks class="download-resume" />
