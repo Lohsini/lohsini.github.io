@@ -33,8 +33,8 @@
                             Have a good day ;)
                         </h1>
                         <ul>
-                            <li>Programming Languages:<br>C/C++, JavaScript/TypeScript, Python</li>
-                            <li>Technologies & Frameworks:<br>SCSS, Vue.js, Vuex, FastAPI, MySQL</li>
+                            <li>Programming Languages:<br>Python, JavaScript/TypeScript, C/C++</li>
+                            <li>Technologies & Frameworks:<br>FastAPI, MySQL, Vue.js, Vuex, SCSS</li>
                             <li>Cloud Services:<br>Firebase(Firestore, Realtime Database, Authentication, Google Storage), Heroku</li>
                             <li>Tools:<br>Git, Linux, Postman, GitHub, Adobe XD, Cocos Creator, SPSS</li>
                         </ul>

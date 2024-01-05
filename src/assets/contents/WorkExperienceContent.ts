@@ -7,10 +7,9 @@ export default [
         image: "",
         linkURL: "",
         descriptions: [
-            "Built a learning ability assessment platform to help 1K daily active users improve academic performance",
-            "Created workspaces with editable graphs and quizzes to assess users’ academic progress and learning situations",
-            "Established a web filesystem interface for browsing folders, sorting files, and searching files",
-            "Collaborated with a 12-person team",
+            "Built the management console and client-facing websites of a learning platform with 1K daily active users",
+            "Established a web-based filesystem interface for browsing folders, sorting files, and searching files",
+            "Developed a data-driven dashboard with dynamic graphs and charts, showcasing learning performance metrics",
         ],
     },
     {
@@ -21,10 +20,10 @@ export default [
         image: "",
         linkURL: "",
         descriptions: [
-            "Designed 12 different web UIs adopting Responsive Web Design using Vue.js and Vue-Bootstrap",
-            "Configured Heroku and Github Page deployment to host websites",
-            "Developed news feed API by searching and filtering relative news with Google search API and python web crawler",
-            "Utilized i18n library to make websites support multiple language",
+            "Developed news feed API utilizing Google Search API and Python web crawler for news searching and filtering",
+            "Designed and built the web interfaces for both the landing page, news page, and product pages",
+            "Configured deployment workflow on Heroku and Github Page for hosting websites",
+            "Integrated i18n library to enable seamless language switching on the website",
         ],
     },
 ];

@@ -1,5 +1,4 @@
 import employeeProgramDemo from "@/assets/contents/employee-program-demo.png";
-// import inventoryDemo2 from "@/assets/contents/inventory-demo2.png";
 import inventoryDemo from "@/assets/contents/inventory-demo.png";
 import boombermanDemo from "@/assets/contents/boomberman-demo.png";
 import webmarioDemo from "@/assets/contents/web-mario-demo.png";
@@ -20,9 +19,8 @@ export default [
         image: employeeProgramDemo,
         linkURL: "",
         descriptions: [
-            "Implemented a searching system with C to enable CRUD",
-            "Created 9 different functionalities to achieve specific search methods",
-            "Developed a formal function for handling file input and output",
+            "Used C to implement a searching system to enable CRUD operations on a file-based storage system",
+            "Developed a command-line interface that allows users to interactively operate the system for efficient data retrieval",
         ],
         links: [
             {
@@ -40,9 +38,9 @@ export default [
         image: inventoryDemo,
         linkURL: "",
         descriptions: [
-            "Developed a backend service with FastAPI and Python to enable APIs",
-            "Implement filtering queries and optimized business logic using MySQL",
-            "Led team of 5 through the end-to-end development of a project covering frontend, backend, and database",
+            "Led a team of 5 in end-to-end system development, designing the architecture for frontend, backend, and database",
+            "Designed 8 MySQL relational schemas to optimize search and management functionalities in the inventory system",
+            "Developed the APIs for backend services using FastAPI and Python",
         ],
         links: [
             {
@@ -60,8 +58,8 @@ export default [
         image: chatroomDemo,
         linkURL: "",
         descriptions: [
-            "Created login feature with email and google authentication",
             "Developed a web chatroom that allows users to interact instantly using Realtime Database and Google Storage",
+            "Created login feature with email and google authentication",
         ],
         links: [
             {
@@ -97,7 +95,7 @@ export default [
         image: webmarioDemo,
         linkURL: "",
         descriptions: [
-            "Designed web version of Mario game with a store and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
+            "Designed web version of Mario game with a marketplace and leaderboards using Cocos Creator, Firebase Auth, and Firestore",
         ],
         links: [
             {

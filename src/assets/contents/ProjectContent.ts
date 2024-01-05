@@ -1,7 +1,7 @@
 import rainformDemo from "@/assets/contents/rainform-demo.png";
 import foodpocketDemo from "@/assets/contents/foodpocket-demo.jpeg";
 import chainfarmsDemo from "@/assets/contents/chainfarms-demo.png";
-import chingyuDemo from "@/assets/contents/chingyu-demo.png";
+// import chingyuDemo from "@/assets/contents/chingyu-demo.png";
 import siotaDemo from "@/assets/contents/siota-demo.png";
 
 export interface LinkModel {
