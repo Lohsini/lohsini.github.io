@@ -19,14 +19,15 @@ export default [
         linkURL: "",
         descriptions: [
             "Developed an online form service using Firebase Auth and Firestore with a team of 4",
-            "Established a control panel for users to modify data, generate surveys, and view statistics",
-            "Reduced 80% of process time of merging text into templates through developing automation scripts",
+            "Established a control panel for users to manage form data, generate surveys, and view live statistics",
+            "Reduced text-template merging time by 80% through automation scripts, streamlining the content creation workflow",
+            // "Reduced 80% of process time of merging text into templates through developing automation scripts",
         ],
         links: [
-            {
-                label: "Webpage",
-                url: "https://rainform.github.io/",
-            },
+            // {
+            //     label: "Webpage",
+            //     url: "https://rainform.github.io/",
+            // },
             {
                 label: "Github",
                 url: "https://github.com/rainform/client_web",
@@ -42,9 +43,9 @@ export default [
         image: foodpocketDemo,
         linkURL: "",
         descriptions: [
-            "Developed a Web App for users to record daily meals and restaurants",
-            "Designed a RWD website for mobile phones, tablets, and computers",
-            "Resolved asynchronous issues for concurrent API requests",
+            "Built a web app for users to log daily meals and restaurants using Vue.js and TypeScript",
+            "Designed a fully responsive UI for mobile, tablet, and desktop with RWD principles and Bootstrap",
+            "Resolved asynchronous issues in concurrent API requests to ensure data consistency and smooth user experience",
         ],
         links: [
             {
@@ -56,7 +57,7 @@ export default [
                 url: "https://github.com/foodpocket/foodpocket",
             },
         ],
-        tags: ["Vue.js", "Vuex", "TypeScript", "RWD", "Bootstrap"],
+        tags: ["Vue.js", "TypeScript", "Vuex", "Responsive Design", "Bootstrap"],
     },
     // {
     //     title: "ChingYu",
@@ -84,7 +85,8 @@ export default [
         image: chainfarmsDemo,
         linkURL: "",
         descriptions: [
-            "Developed web UI adopting Responsive Web Design using Vue.js",
+            // "Developed web UI adopting Responsive Web Design using Vue.js",
+            "Developed a responsive web UI using Vue.js and SCSS for a production website",
         ],
         links: [
             {
@@ -102,14 +104,14 @@ export default [
         image: siotaDemo,
         linkURL: "",
         descriptions: [
-            "Established 9 different UI design pages on the website and deployed the website on Heroku",
+            "Built 9 different UI design pages on the website and hosted it on GitHub Pages",
         ],
         links: [
             {
                 label: "Webpage",
-                url: "https://siota.herokuapp.com/index.html",
+                url: "https://lohsini.github.io/SIOTA/",
             },
         ],
-        tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Ajax", "Python", "Git", "Heroku"],
+        tags: ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Ajax", "Python", "Git", "GitHub Pages"],
     },
 ];

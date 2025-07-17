@@ -23,7 +23,7 @@
                         <span v-if="startToEndDateText"> {{ startToEndDateText }}</span>
                     </p>
                     <ul
-                        :class="{'hide-bullet': hideBullet}"
+                        :class="['custom-bullet', {'hide-bullet': hideBullet}]"
                     >
                         <li
                             v-for="(description, index) in descriptions"
@@ -137,6 +137,11 @@ export default Vue.extend({
 
     ul.hide-bullet {
         list-style-type: none;
+    }
+
+    ul.custom-bullet {
+        list-style-position: outside; /* 確保點點在外側 */
+        padding-left: 1.5em; /* 留空間給點點 */
     }
 }
 

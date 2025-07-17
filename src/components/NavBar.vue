@@ -5,10 +5,7 @@
         variant="primary"
         fixed="top"
     >
-        <b-navbar-brand
-            to="/"
-            class="brand"
-        >
+        <b-navbar-brand>
             Hsin-I Lo
         </b-navbar-brand>
 
@@ -25,11 +22,17 @@
                 >
                     Home
                 </b-nav-item>
+                <!-- <b-nav-item disabled>
+                    |
+                </b-nav-item>
                 <b-nav-item
                     v-scroll-to="'#About'"
                     to="/"
                 >
                     About
+                </b-nav-item> -->
+                <b-nav-item disabled>
+                    |
                 </b-nav-item>
                 <b-nav-item
                     v-scroll-to="'#Work'"
@@ -37,11 +40,17 @@
                 >
                     Work
                 </b-nav-item>
+                <b-nav-item disabled>
+                    |
+                </b-nav-item>
                 <b-nav-item
                     v-scroll-to="'#Education'"
                     to="/"
                 >
                     Education
+                </b-nav-item>
+                <b-nav-item disabled>
+                    |
                 </b-nav-item>
                 <b-nav-item
                     v-scroll-to="'#CourseProjects'"
@@ -49,18 +58,21 @@
                 >
                     Course Projects
                 </b-nav-item>
+                <b-nav-item disabled>
+                    |
+                </b-nav-item>
                 <b-nav-item
                     v-scroll-to="'#SelectedProjects'"
                     to="/"
                 >
                     Selected Projects
                 </b-nav-item>
-                <b-nav-item
+                <!-- <b-nav-item
                     :href="resumeLink"
                     target="_blank"
                 >
                     Resume
-                </b-nav-item>
+                </b-nav-item> -->
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->

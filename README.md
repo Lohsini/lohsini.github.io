@@ -15,6 +15,10 @@ npm run serve
 npm run build
 ```
 
+```
+ npm run build && bash deploy.sh
+```
+
 ### Lints and fixes files
 ```
 npm run lint

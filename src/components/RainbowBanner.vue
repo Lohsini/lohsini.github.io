@@ -1,5 +1,6 @@
 <template>
     <section class="banner-container bgPic bg">
+        <!-- rainbowlize / bgPic 二選一 -->
         <div class="broad">
             <h1 class="title bgPic word">
                 Hsin-I (Joanna) Lo
@@ -71,6 +72,13 @@ export default Vue.extend({
     background-position: center center;
     .broad{
         background-color: #ffffff83;
+        // background: linear-gradient(
+        //     to bottom,
+        //     #ffffff83 0%,
+        //     #ffffff83 60%,
+        //     #ffffff61 80%,
+        //     #ffffff45 100%
+        // );
         width: 100%;
         height: 100%;
         display: flex;

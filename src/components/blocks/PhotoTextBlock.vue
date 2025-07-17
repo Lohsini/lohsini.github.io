@@ -15,10 +15,13 @@
                 </b-col>
                 <b-col>
                     <h2>
-                        <a
-                            :href="mainLink"
+                        <!-- <a
+                            :href="mainLink || undefined"
+                            :tabindex="mainLink ? 0 : -1"
+                            :style="!mainLink ? '' : 'color: inherit;'"
                             target="_blank"
-                        >{{ title }}</a>
+                        >{{ title }}</a> -->
+                        {{ title }}
                     </h2>
                     <p class="m-0">
                         {{ role }}
@@ -36,7 +39,7 @@
                         </b-badge>
                     </div>
                     <ul
-                        :class="{'hide-bullet': hideBullet}"
+                        :class="['custom-bullet', {'hide-bullet': hideBullet}]"
                     >
                         <li
                             v-for="(description, index) in descriptions"
@@ -46,13 +49,19 @@
                         </li>
                     </ul>
                     <div class="links-wrapper">
-                        <a
-                            v-for="(link, key) in links"
-                            :key="key"
-                            :href="link.url"
-                            class="mr-2"
-                            target="_blank"
-                        >{{ link.label }}</a>
+                        <template v-for="(link, key) in links">
+                            <a
+                                :key="key"
+                                :href="link.url"
+                                class=""
+                                target="_blank"
+                            >{{ link.label }}</a>
+                            <span
+                                v-if="key < links.length - 1"
+                                :key="`separator-${key}`"
+                                class="mx-2"
+                            > / </span>
+                        </template>
                     </div>
                 </b-col>
             </b-row>
@@ -176,6 +185,10 @@ export default Vue.extend({
 
     ul.hide-bullet {
         list-style-type: none;
+    }
+    ul.custom-bullet {
+        list-style-position: outside; /* 確保點點在外側 */
+        padding-left: 1.5em; /* 留空間給點點 */
     }
 }
 
