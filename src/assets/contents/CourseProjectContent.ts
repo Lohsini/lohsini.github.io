@@ -110,7 +110,7 @@ export default [
                 url: "https://github.com/Lohsini/GasPump_Test",
             },
         ],
-        tags: ["C++", "MDA-EFSM", "Pipes and Filters", "OOD", "Unit Testing"],
+        tags: ["C++", "MDA-EFSM", "Pipes and Filters", "OOP", "Unit Testing"],
     },
     {
         title: "Anonymization of Hotel Booking Data",
