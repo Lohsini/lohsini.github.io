@@ -27,7 +27,7 @@
                     <MyLinks icon-style="light" />
                 </b-col>
             </b-row>
-            <p>© Copyright {{ currYear }} Hsin-I Lo</p>
+            <p>© Copyright {{ currYear }} Joanna Lo</p>
         </b-container>
     </section>
 </template>
@@ -45,9 +45,9 @@ export default Vue.extend({
         currYear(): number {
             return new Date().getFullYear();
         },
-        ...mapState([
-            "resumeLink",
-        ]),
+        ...mapState({
+            resumeLink: (state: any) => state.resumeLink,
+        }),
     },
 
 });

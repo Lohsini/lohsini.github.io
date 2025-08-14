@@ -3,7 +3,7 @@
         <!-- rainbowlize / bgPic 二選一 -->
         <div class="broad">
             <h1 class="title bgPic word">
-                Hsin-I (Joanna) Lo
+                Joanna Lo
             </h1>
             <h2 class="subtitle">
                 Software Engineer
@@ -12,7 +12,7 @@
             <MyLinks class="my-link-wrapper" />
             <ProfileImage
                 class="my-profile-image"
-                alt-text="Hsin-I Lo"
+                alt-text="Joanna Lo"
                 :src="require('@/assets/myProfileImage.jpg')"
             />
         </div>

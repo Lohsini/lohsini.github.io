@@ -1,7 +1,7 @@
 <template>
     <section class="banner-container">
         <h1 class="title">
-            Hsin-I (Joanna) Lo
+            Joanna Lo
         </h1>
         <h2 class="subtitle">
             Software Engineer
@@ -10,7 +10,7 @@
         <MyLinks class="download-resume" />
         <ProfileImage
             class="my-profile-image"
-            alt-text="Hsin-I Lo"
+            alt-text="Joanna Lo"
             :src="require('@/assets/myProfileImage.jpg')"
         />
     </section>

@@ -15,7 +15,7 @@
                         <h1 class="mb-3">
                             About Me
                         </h1>
-                        <!-- Hello, I'm Hsin-I Lo, also known as Joanna. I'm pursuing my master's degree in Computer Science at the Illinois Institute of Technology.
+                        <!-- Hello, I'm Joanna Lo, also known as Joanna. I'm pursuing my master's degree in Computer Science at the Illinois Institute of Technology.
 
                         <br><br>
                         I was a software engineer at QSticker, where I played a pivotal role in developing a robust learning ability assessment platform that garnered 1,000 daily active users — before that, my time as a research assistant at National Tsing Hua University honed my skills in designing responsive web interfaces.
@@ -23,7 +23,7 @@
                         <br><br>
                         I'm passionately advancing my knowledge in Computer Science, eager to contribute my skills and experiences to new challenges. -->
 
-                        <!-- Hello, I'm Hsin-I Lo (Joanna), a recent Computer Science graduate from the Illinois Institute of Technology, with a strong focus on full-stack and frontend development.
+                        <!-- Hello, I'm Joanna Lo, a recent Computer Science graduate from the Illinois Institute of Technology, with a strong focus on full-stack and frontend development.
                         <br><br>
                         At IIT, I deepened my skills in building scalable web applications using React, Vue.js, and FastAPI, and I deployed cloud-based solutions with Google Cloud Platform services and relational databases such as MySQL, which strengthened my backend development and data handling capabilities.
                         <br><br>
@@ -32,9 +32,9 @@
                         My journey into web development began as a research assistant at National Tsing Hua University, where I designed responsive, accessible web interfaces for academic platforms. Some of the projects also involved Firebase services, which introduced me to cloud-based integration and real-time features early in my career.
                         <br><br>
                         I'm passionate about creating user-focused, maintainable applications and excited to contribute my skills in a full-stack or frontend development role that values clean architecture, collaboration, and continuous learning. -->
-                        Hi, I’m Hsin-I (Joanna) Lo, a full-stack developer with experience building scalable, user-focused systems across web, backend, and cloud platforms.
+                        Hi, I’m Joanna Lo, a full-stack developer with experience building scalable, user-focused systems across web, backend, and cloud platforms.
                         <br><br>
-                        As a founding software engineer at QSticker, I led frontend architecture and partnered with backend teams to ship a B2B2C learning platform with ~1,000 daily active users.
+                        As a founding software engineer at QSticker, I led frontend architecture and partnered with backend teams to ship a B2B2C learning platform from 0 to 1,000 daily active users.
                         <br><br>
                         Recently, I’ve developed AI agents for project planning, a modular database engine, and a cloud-based forecasting dashboard. I’m excited to apply my experience to real-world challenges.
                         <br><br>
@@ -106,15 +106,15 @@
                         <ul :class="['custom-bullet', {'hide-bullet': hideBullet}]">
                             <li><strong>Programming Languages:</strong><br>Python, JavaScript / TypeScript, C / C++</li>
 
-                            <li><strong>Frontend:</strong><br>Vue.js, React, SCSS, Cocos Creator</li>
+                            <li><strong>Frontend:</strong><br>Vue.js, React, Next.js, HTML/CSS, Sass, Tailwind, Cocos Creator</li>
 
-                            <li><strong>Backend:</strong><br>FastAPI, Flask, Firebase (Firestore, Realtime DB, Auth), MySQL, MongoDB</li>
+                            <li><strong>Backend:</strong><br>FastAPI, Flask, Firebase (Firestore, Realtime DB, Auth), MySQL, MongoDB, PostgreSQL</li>
 
-                            <li><strong>Cloud & Deployment:</strong><br>Google Cloud Platform (Cloud Run, GCS, VM), Firebase (Hosting, Storage), GitHub Pages, Heroku</li>
+                            <li><strong>Cloud & Deployment:</strong><br>Google Cloud Platform (Cloud Run, GCS, VM), Firebase (Hosting, Storage), GitHub Pages, Heroku, Vercel</li>
 
-                            <li><strong>DevOps & Tooling:</strong><br>Git, Docker, CI/CD Pipelines, Bash / Linux, Jupyter Notebook</li>
+                            <li><strong>DevOps & Tooling:</strong><br>Git, Docker, CI/CD Pipelines, Bash / Linux, Jupyter Notebook, Claude Code</li>
 
-                            <li><strong>LLM Projects & Tools:</strong><br>GPT-4o, DeepSeek-R1, LlamaIndex, LangChain, Autogen</li>
+                            <li><strong>AI/ML Frameworks:</strong><br>LlamaIndex, LangChain, Autogen</li>
 
                             <!-- <li><strong>Software Methodologies:</strong><br>Agile (Scrum), Waterfall, Human-in-the-loop evaluation</li> -->
 
@@ -135,6 +135,7 @@ export default Vue.extend({
     },
     data() {
         return {
+            hideBullet: false, // Set to true if you want to hide bullets by default
         };
     },
 });

@@ -8,7 +8,7 @@
             <font-awesome-icon :icon="['fab', 'github']" />
         </a>
         <a
-            href="https://www.linkedin.com/in/hsin-i-lo-2b7202a9/"
+            href="https://www.linkedin.com/in/hsin-i-lo/"
             target="_blank"
             :class="{ light: iconStyle !== 'dark' }"
         >

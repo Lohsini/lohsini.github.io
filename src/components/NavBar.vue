@@ -6,7 +6,7 @@
         fixed="top"
     >
         <b-navbar-brand>
-            Hsin-I Lo
+            Joanna Lo
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse" />
